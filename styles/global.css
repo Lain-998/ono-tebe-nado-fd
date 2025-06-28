@@ -1,4 +1,7 @@
-*,
+*{
+  position: relative;
+  font-family: Raleway, sans-serif;
+}
 *::before,
 *::after {
   box-sizing: border-box;
@@ -9,7 +12,6 @@ body {
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
-
 h1,
 h2,
 h3,
@@ -31,8 +33,4 @@ a {
 
 img {
   width: 100%;
-}
-
-button {
-  font: inherit;
 }
