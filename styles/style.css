@@ -1,56 +1,56 @@
 .header{
-    width: 100%;
-    height: auto;
-    padding-bottom: 50px;
-    padding-top: 70px;
-}
-.header__menu{
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-content: center;
-    padding: 15px 50px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 98px;
+    padding-top: 90px;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
     list-style:circle;
+    padding-left: 50px;
+    padding-top: 45px;
 }
 .header__links-list{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-top: 49px;
     font-size: 18px;
+    list-style: none;
 }
-.header__links-list-item_no-bullit{
-    text-decoration: none;
-    list-style-type: none;
+.header__link_active{
+    text-decoration: none; 
 }
 .header__links-list-item{
     list-style-type: circle;
-    text-decoration: underline;
     margin-left: 3px;
 }
 .header__logo-image{
     display: block;
-    padding-top: 10px;
     width: 140px;
     height: 100px;
 
 }
 .address{
-    margin-top: 10px;
-    border: 1px;
     font-size: 18px;
     line-height: 24px;
+    text-underline-offset: 4px;
 }
 .header .address{
     grid-column: 3;
     justify-self: end;
-    padding-right: 40px;
+    padding-right: 85px;
+    padding-top: 5px;
 }
 main{
     position: relative;
 }
 
 .cover{
-    margin-top: 28px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -151,6 +151,7 @@ button{
 }
 .card-link{
     position: relative;
+    text-decoration: none
 }
 .card{
     display: flex;
@@ -191,9 +192,10 @@ button{
 }
 .lots__look-more-link{
     display: inline-block;
-    padding: 34px 38px;
+    padding-top: 33px;
+    padding-left: 40px;
+    padding-bottom: 35px;
     font-size: 20px;
-    text-decoration: underline;
 }
 .about{
     display: grid;
@@ -236,30 +238,31 @@ button{
     grid-column: -2/-1;
     gap: 22px;
     font-size: 20px;
-  
 }
 .footer{
     display: flex;
     justify-content: space-around;
     gap: 30px;
     padding-top: 170px;
-    padding-bottom: 100px;
+    padding-bottom: 92px;
 }
 .footer__menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     margin-right: 155px;
+}
+.footer__menu-list{
+    list-style: none;
 }
 .footer__menu-link_active{
     text-decoration: none;
-    list-style-type: none;
+    list-style: none;
 }
-.footer__menu-list{
-    list-style-type: none;
+.footer__menu-link{
     text-decoration: underline;
 }
 .footer__social-icon{
@@ -277,4 +280,5 @@ button{
 .footer .address{
     margin-right: auto;
     padding-left: 50px;
+    padding-top: 10px;
 }
