@@ -13,7 +13,7 @@
     text-align: center;
     list-style:circle;
     padding-left: 50px;
-    padding-top: 45px;
+    padding-top: 44px;
 }
 .header__links-list{
     display: flex;
@@ -31,20 +31,21 @@
 }
 .header__logo-image{
     display: block;
-    width: 140px;
-    height: 100px;
-
+    width: 148px;
+    height: 105px;
+    margin-top: 2px;
 }
 .address{
     font-size: 18px;
     line-height: 24px;
     text-underline-offset: 4px;
+    font-style: normal;
 }
 .header .address{
     grid-column: 3;
     justify-self: end;
     padding-right: 85px;
-    padding-top: 5px;
+    padding-top: 4px;
 }
 main{
     position: relative;
@@ -78,7 +79,7 @@ main{
 .aligned-text_left{
     display: block;
     text-align: start;
-    margin-top: 8px;
+    margin-top: 5px;
     margin-right: 5px;
 }
 .aligned-text_center{
@@ -89,7 +90,7 @@ main{
 .aligned-text_right{
     display: block;
     text-align: end;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 19px;
 }
 .cover__description{
@@ -99,7 +100,7 @@ main{
     align-items: center;
     z-index: 1;
     bottom: 10px;
-    padding: 110px 50px 40px 50px;
+    padding: 112px 50px 40px 50px;
 
 }
 .cover__description-text{
@@ -132,7 +133,7 @@ button{
 .lots__heading{
     text-transform: uppercase;
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 23px;
     padding-left: 40px;
     z-index: 2;
 }
@@ -143,15 +144,16 @@ button{
     gap: 24px;
     list-style-type: none;
     color: #fff;
-    padding-top: 9px;
+    padding-top: 6px;
 }
 .lots__card-list-item{
     width: 334px;
-    min-height: 490px;
+    min-height: 500px;
 }
 .card-link{
     position: relative;
-    text-decoration: none
+    text-decoration: none;
+    height: 100%;
 }
 .card{
     display: flex;
@@ -204,7 +206,7 @@ button{
     width: 100%;
     height: auto;
     z-index: 2;
-    padding-top: 120px;
+    padding-top: 117px;
     
 }
 .about__logo{
@@ -212,13 +214,13 @@ button{
     height: 240px;
     background-color: black;
     border-radius: 50%;
-    margin-left: 72px;
+    margin-left: 71px;
 }
 .about__logo-image{
     width: 148px;
     height: 114px;
-    padding-top: 58px;
-    padding-left: 40px;
+    padding-top: 62px;
+    padding-left: 46px;
 }
 .about__title{
     display: flex;
@@ -236,7 +238,7 @@ button{
     padding-right: 25px;
     line-height: 24px;
     grid-column: -2/-1;
-    gap: 22px;
+    gap: 24px;
     font-size: 20px;
 }
 .footer{
